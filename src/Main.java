@@ -19,7 +19,7 @@ public class Main {
             }
             System.out.print("Hari pengembalian: ");
             int hariPengembalian = scanner.nextInt();
-            scanner.nextLine(); // Membersihkan newline di buffer
+            scanner.nextLine(); // Membersihkan newline
 
             Buku buku = new Buku(jenisBuku, hariPengembalian);
             daftarBuku.add(buku);
